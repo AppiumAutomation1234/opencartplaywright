@@ -1,0 +1,7 @@
+Allure is a popular test reporting framework that provides detailed and visually appealing reports for automated tests. To generate Allure reports for your Playwright tests, you can follow these steps:
+-> npm install allure-commandline --save-dev
+-> allure generate allure-results --clean -o allure-report
+-> allure open ./allure-report
+
+Run the test cases after configure in package.json file with the command "npm test" and then execute the above commands to generate and open the Allure report.
+-> npm run test:master:headed

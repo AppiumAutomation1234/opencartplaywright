@@ -1,0 +1,3 @@
+testname,email,password,expectedResult
+Valid Login,nagoorshareef2022@outlook.com,Myladdu@1234,success
+Invalid Login,nagoorshareef2023@outlook.com,Invalid@1234,failure

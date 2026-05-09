@@ -1,0 +1,14 @@
+[
+    {
+        "testName": "Login with valid credentials",
+        "email": "nagoorshareef2022@outlook.com",
+        "password": "Myladdu@1234",
+        "expectedResult": "success"
+    },
+    {
+        "testName": "Login with invalid credentials",
+        "email": "nagoorshareef2023@outlook.com",
+        "password": "Invalid@1234",
+        "expectedResult": "failure"
+    }
+]
